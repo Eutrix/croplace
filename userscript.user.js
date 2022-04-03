@@ -1,9 +1,9 @@
 // ==UserScript==
-// @name         Okayeg template
+// @name         Croatia template
 // @namespace    http://tampermonkey.net/
-// @version      1.9
-// @downloadURL  https://gist.github.com/hotbear1110/5fc01d1044cde0366a531e0b04e8e320/raw/userscript.user.js
-// @updateURL    https://gist.github.com/hotbear1110/5fc01d1044cde0366a531e0b04e8e320/raw/userscript.user.js
+// @version      1.0
+// @downloadURL  https://github.com/Eutrix/croplace/raw/main/userscript.user.js
+// @updateURL    https://github.com/Eutrix/croplace/raw/main/userscript.user.js
 // @description  NaM!
 // @author       hotbear1110
 // @match        https://hot-potato.reddit.com/embed*
@@ -15,7 +15,7 @@ if (window.top !== window.self) {
             document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(
         (function () {
             const i = document.createElement("img");
-            i.src = "https://i.imgur.com/lvdN1XL.png";
+            i.src = "https://raw.githubusercontent.com/Eutrix/croplace/main/canvas.png";
             i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;";
             console.log(i);
             return i;

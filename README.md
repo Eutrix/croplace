@@ -1,6 +1,10 @@
 # croplace
+
 a fork of https://gist.github.com/hotbear1110/b68abfb105f62d353823e598367296c9
-First install Tampermonkey. If you are on Chrome click here: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
+
+First install Tampermonkey. 
+
+If you are on Chrome click here: https://chrome.google.com/webstore/detail/tampermonkey/dhdgffkkebhmkfjojejmpbldmpobfkfo?hl=en
 
 If you are on Opera, click here: https://addons.opera.com/en/extensions/details/tampermonkey-beta/
 

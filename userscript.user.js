@@ -1,15 +1,17 @@
 // ==UserScript==
 // @name         Croatia template
 // @namespace    http://tampermonkey.net/
-// @version      1.0
+// @version      1.1
 // @downloadURL  https://github.com/Eutrix/croplace/raw/main/userscript.user.js
 // @updateURL    https://github.com/Eutrix/croplace/raw/main/userscript.user.js
-// @description  NaM!
-// @author       hotbear1110
+// @description  Overlay za r/croatia
+// @author       eutrix
 // @match        https://hot-potato.reddit.com/embed*
 // @icon         https://www.google.com/s2/favicons?sz=64&domain=reddit.com
 // @grant        none
 // ==/UserScript==
+
+// Originalni autor koda - https://gist.github.com/hotbear1110
 if (window.top !== window.self) {
     window.addEventListener('load', () => {
             document.getElementsByTagName("mona-lisa-embed")[0].shadowRoot.children[0].getElementsByTagName("mona-lisa-canvas")[0].shadowRoot.children[0].appendChild(

@@ -5,7 +5,7 @@ hr2File = Image.open('hr2.png')
 #create transparent image
 canvas = Image.new('RGBA', (6000,3000), (255,255,255,0))
 hr1 = (73*3,717*3)
-hr2 = (362*3, 891*3)
+hr2 = (361*3, 890*3)
 zagi = (1830*3, 952*3)
 
 #go through each pixel of zagiFile

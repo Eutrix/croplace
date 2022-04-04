@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Croatia template
 // @namespace    http://tampermonkey.net/
-// @version      1.1
+// @version      1.2
 // @downloadURL  https://github.com/Eutrix/croplace/raw/main/userscript.user.js
 // @updateURL    https://github.com/Eutrix/croplace/raw/main/userscript.user.js
 // @description  Overlay za r/croatia
@@ -18,7 +18,7 @@ if (window.top !== window.self) {
         (function () {
             const i = document.createElement("img");
             i.src = "https://raw.githubusercontent.com/Eutrix/croplace/main/canvas.png";
-            i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 1000px;";
+            i.style = "position: absolute;left: 0;top: 0;image-rendering: pixelated;width: 2000px;height: 2000px;";
             console.log(i);
             return i;
         })())

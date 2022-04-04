@@ -1,11 +1,11 @@
 from PIL import Image
-kravata = Image.open('kravata.png')
-k2 = Image.new('RGBA', (200//13, 780//13), (255,255,255,0))
+modric = Image.open('modric4.png')
+m2 = Image.new('RGBA', (modric.width//12+1, modric.height//12+1), (255,255,255,0))
 # go through each pixel of a file
-for x in range(5,kravata.width,13):
-    for y in range(5,kravata.height,13):
+for x in range(6,modric.width,12):
+    for y in range(6,modric.height,12):
         #get pixel value
-        pix = kravata.getpixel((x,y))
-        k2.putpixel((x//13,y//13), pix)
-k2.save('kravata-resized.png')
+        pix = modric.getpixel((x,y))
+        m2.putpixel(((x-6)//12,(y-6)//12), pix)
+m2.save('modric-resized.png')
 

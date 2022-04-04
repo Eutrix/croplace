@@ -1,5 +1,5 @@
 from PIL import Image
-file = Image.open('golubica-big.png')
+file = Image.open('obrub-bad.png')
 
 scale = 16
 
@@ -10,5 +10,5 @@ for x in range(6,file.width,scale):
         #get pixel value
         pix = file.getpixel((x,y))
         new.putpixel(((x-6)//scale,(y-6)//scale), pix)
-new.save('golubica-resized.png')
+new.save('obrub-resized.png')
 

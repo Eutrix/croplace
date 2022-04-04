@@ -13,14 +13,15 @@ def closest_color(r, g, b):
 
 hr1 = ((73*3,717*3), Image.open('hr1.png'))
 hr2 = ((361*3, 890*3), Image.open('hr2.png'))
-zagi = ((352*3, 1072*3), Image.open('zagiflower.png'))
-hlapic = ((357*3, 1076*3), Image.open('hlapic-resized.png'))
+# zagi = ((352*3, 1072*3), Image.open('zagiflower.png'))
+# hlapic = ((357*3, 1076*3), Image.open('hlapic-resized.png'))
 kravata = ((434*3, 912*3), Image.open('kravata2.png'))
-modric = ((330*3, 1088*3), Image.open('modric-resized-edited.png'))
+# modric = ((330*3, 1088*3), Image.open('modric-resized-edited.png'))
+hr3 = ((323*3, 1069*3), Image.open('modric+hlapic.png'))
 
 canvas = Image.new('RGBA', (6000,6000), (255,255,255,0))
 
-for i in [hr1, hr2, kravata, modric, hlapic]:
+for i in [hr1, hr2, kravata, hr3]:
     x0, y0 = i[0]
     file = i[1]
     #go through each pixel of a file

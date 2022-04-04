@@ -14,7 +14,7 @@ def closest_color(r, g, b):
 hr1 = ((73*3,717*3), Image.open('hr1.png'))
 hr2 = ((361*3, 890*3), Image.open('hr2.png'))
 zagi = ((1830*3, 952*3), Image.open('zagiflower1.png'))
-kravata = ((434*3,912*3), Image.open('kravata-resized-edited.png'))
+kravata = ((434*3,912*3), Image.open('kravata2.png'))
 modric = ((330*3, 1088*3), Image.open('modric-resized-edited.png'))
 
 canvas = Image.new('RGBA', (6000,6000), (255,255,255,0))

@@ -14,7 +14,7 @@ def closest_color(r, g, b):
 hr1 = ((73*3,717*3), Image.open('hr1.png'))
 hr2 = ((361*3, 890*3), Image.open('hr2.png'))
 zagi = ((352*3, 1072*3), Image.open('zagiflower.png'))
-hlapic = ((356*3, 1076*3), Image.open('hlapic-resized.png'))
+hlapic = ((357*3, 1076*3), Image.open('hlapic-resized.png'))
 kravata = ((434*3, 912*3), Image.open('kravata2.png'))
 modric = ((330*3, 1088*3), Image.open('modric-resized-edited.png'))
 

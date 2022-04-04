@@ -19,7 +19,7 @@ modric = ((330*3, 1088*3), Image.open('modric-resized-edited.png'))
 
 canvas = Image.new('RGBA', (6000,6000), (255,255,255,0))
 
-for i in [hr1, hr2, zagi, kravata, modric]:
+for i in [hr1, hr2, kravata, modric]:
     x0, y0 = i[0]
     file = i[1]
     #go through each pixel of a file

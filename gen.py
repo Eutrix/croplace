@@ -12,7 +12,7 @@ def closest_color(r, g, b):
     return min(color_diffs)[1]
 
 hr1 = ((73*3,717*3), Image.open('hr1.png'))
-hr2 = ((361*3, 890*3), Image.open('hr2.png'))
+hr2 = ((361*3, 890*3), Image.open('hr2-v2.png'))
 # zagi = ((352*3, 1072*3), Image.open('zagiflower.png'))
 # hlapic = ((357*3, 1076*3), Image.open('hlapic-resized.png'))
 kravata = ((434*3, 912*3), Image.open('kravata2.png'))
